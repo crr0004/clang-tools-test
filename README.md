@@ -25,7 +25,7 @@ Run `cmake` in your build enviroment with clang and llvm libraries installed.
 Sample for mingw64 in MSYS2: `cmake -G "Unix Makefiles" -DCMAKE_EXPORT_COMPILE_COMMANDS=1 ..`
 
 # Running executable
-```./sample-tool.exe -p="./" ../tool.cpp -- -I/include -std=c++11```
+```./simple-tool.exe -p="./" ../tool.cpp -- -I/include -std=c++11```
 
 ## Variables
 - `-p` is the directory of the build database, in this case, CMake's json database (compile_commands.json).
